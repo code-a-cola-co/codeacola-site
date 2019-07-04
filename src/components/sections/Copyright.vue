@@ -5,9 +5,22 @@
     background-color: $color-primary;
     color: $color-lightest-gray;
 
-    &__logo {
-      display: block;
-      margin: 0 auto;
+    &_github {
+      display: inline-block;
+    }
+
+    &__github {
+      display: inline-block;
+      float: right;
+       a {
+         &:link,
+         &:visited,
+         &:active,
+         &:hover {
+           color: $color-lightest-gray;
+           @include font-size-map($h4-font-size, 0.5);
+         }
+       }
     }
   }
 </style>
@@ -19,7 +32,13 @@
 
         <div class="col-12">
 
-          <div class="codeacola-copyright__teaser">&copy;{{ year }} {{ $static.metaData.siteName }}. Some rights reserved.</div>
+          <span class="codeacola-copyright__teaser">&copy;{{ year }} {{ $static.metaData.siteName }}. Some rights reserved.</span>
+
+          <span class="codeacola-copyright__github">
+            <a href="https://github.com/code-a-cola" title="code-a-cola@github" target="_blank">
+              <i class="codeacola-copyright__github fa fa-github"></i>
+            </a>
+          </span>
 
         </div>
 

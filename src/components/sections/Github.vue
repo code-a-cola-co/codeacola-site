@@ -51,6 +51,7 @@
 
             &:link,
             &:visited,
+            &:active,
             &:hover {
               color: $color-lightest-gray;
               text-decoration: none;
