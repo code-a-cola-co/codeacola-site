@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow:
+Disallow: /cgi-bin/
+Sitemap: https://codeacola.com/sitemap.xml

@@ -1,0 +1,34 @@
+$font-quicksand: 'Quicksand', sans-serif;
+$font-oswald: 'Oswald', sans-serif;
+$font-another-hand: 'Just Another Hand', cursive;
+$font-roboslab: 'Roboto Slab', serif;
+$font-robo-mono: 'Roboto Mono', monospace;
+
+$color-primary: #462877;
+$color-secondary: #633077;
+$color-accent: #ded5ff;
+$color-hint: #d6cbff;
+$color-success: #3ba83e;
+$color-info: #20b0ff;
+$color-warning: #ffcf51;
+$color-danger: #ff3f43;
+$color-darker-gray: #333333;
+$color-dark-gray: #555555;
+$color-gray: #AAAAAA;
+$color-light-gray: #CCCCCC;
+$color-lighter-gray: #EEEEEE;
+$color-lightest-gray: #FCFCFC;
+
+$break-sm: 576px;
+$break-md: 768px;
+$break-lg: 992px;
+$break-xl: 1200px;
+$break-4k: 4096px;
+
+$html-font-size: (null: 14px, $break-4k: 16px, $break-xl: 15px, $break-lg: 14px, $break-md: 14px, $break-sm: 15px);
+$h1-font-size: (null: 4em, $break-4k: 4.25em, $break-xl: 4.25em, $break-lg: 4em, $break-md: 3.75em, $break-sm: 3.5em);
+$h2-font-size: (null: 3em, $break-4k: 3.25em, $break-xl: 3.25em, $break-lg: 3em, $break-md: 2.75em, $break-sm: 2.5em);
+$h3-font-size: (null: 2em, $break-4k: 2.25em, $break-xl: 2.25em, $break-lg: 2em, $break-md: 1.75em, $break-sm: 1.5em);
+$h4-font-size: (null: 1em, $break-4k: 1.25em, $break-xl: 1.25em, $break-lg: 1em, $break-md: 1em, $break-sm: 1em);
+$h5-font-size: (null: 0.83em, $break-4k: 0.95em, $break-xl: 0.95em, $break-lg: 0.83em, $break-md: 0.83em, $break-sm: 0.83em);
+$h6-font-size: (null: 0.75em, $break-4k: 0.83em, $break-xl: 0.83em, $break-lg: 0.75em, $break-md: 0.75em, $break-sm: 0.75em);
