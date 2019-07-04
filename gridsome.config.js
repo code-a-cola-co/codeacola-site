@@ -12,7 +12,7 @@ function addStyleResource (rule) {
 
 module.exports = {
   siteName: 'code@cola - Javascript Projects',
-  siteDescription: 'Open source javascript resources for developers',
+  siteDescription: 'Open source javascript projects for developers',
   siteUrl: '//codeacola.com',
   icon: {
     favicon: {
