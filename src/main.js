@@ -1,4 +1,4 @@
-import Default from '~/layouts/Default.vue'
+import Default from '@/layouts/Default.vue';
 import links from '@/links.js';
 import metas from '@/metas.js';
 import scripts from '@/scripts.js';

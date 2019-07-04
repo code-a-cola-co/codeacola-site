@@ -1,18 +1,21 @@
-<style lang="sass">
+<style lang="scss">
 </style>
 
 <template>
   <Layout>
 
-    <g-image alt="code@cola logo" src="@/assets/images/favicon.png" width="400" />
+    <Logo />
 
   </Layout>
 </template>
 
 <script>
+import Logo from '@/components/sections/Logo';
+
 export default {
-  metaInfo: {
-    title: 'Hello, world!'
-  }
+  name: 'Index',
+  components: {
+    Logo,
+  },
 }
 </script>
