@@ -4,7 +4,7 @@
 <template>
   <Layout>
 
-    <g-image alt="code@cola logo" src="~/assets/images/favicon.png" width="400" />
+    <g-image alt="code@cola logo" src="@/assets/images/favicon.png" width="400" />
 
   </Layout>
 </template>
