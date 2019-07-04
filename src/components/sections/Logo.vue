@@ -2,8 +2,8 @@
   .codeacola-logo {
     padding: 40px 0;
     text-align: center;
-    background-color: $color-lightest-gray;
-    border-bottom: 1px solid $color-lighter-gray;
+    background-color: $color-lighter-gray;
+    border-bottom: 1px solid $color-light-gray;
 
     &__logo {
       display: block;

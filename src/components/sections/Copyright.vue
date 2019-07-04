@@ -2,6 +2,8 @@
   .codeacola-copyright {
     padding: 40px 0;
     text-align: left;
+    background-color: $color-primary;
+    color: $color-lightest-gray;
 
     &__logo {
       display: block;
