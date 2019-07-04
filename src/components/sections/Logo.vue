@@ -1,4 +1,4 @@
-<style type="scss">
+<style lang="scss">
   .codeacola-logo {
     padding: 40px 0;
     text-align: center;

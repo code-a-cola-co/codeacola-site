@@ -1,7 +1,7 @@
 const path = require('path');
 
 function addStyleResource (rule) {
-  rule.use('style-resource')
+  rule.use(['style-loader', 'css-loader', 'stylus-loader'])
     .loader('style-resources-loader')
     .options({
       patterns: [
