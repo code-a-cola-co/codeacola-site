@@ -7,7 +7,7 @@
 
     &__logo {
       display: block;
-      margin: 0 auto;
+      margin: 0 auto 6px;
     }
   }
 </style>
@@ -21,7 +21,7 @@
 
           <g-image alt="code@cola logo" class="codeacola-logo__logo" src="@/assets/images/logo.png" width="340" />
 
-          <div class="codeacola-logo__teaser">{{ $static.metaData.siteDescription.toLowerCase() }}</div>
+          <div class="codeacola-logo__text">{{ $static.metaData.siteDescription.toLowerCase() }}</div>
 
         </div>
 
