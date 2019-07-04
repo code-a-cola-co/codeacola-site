@@ -2,15 +2,11 @@
   .codeacola-logo {
     padding: 40px 0;
     text-align: center;
-    background-color: $color-primary;
+    background-color: $color-lightest-gray;
 
     &__logo {
       display: block;
       margin: 0 auto;
-    }
-
-    &__teaser {
-      font-family: $font-another-hand;
     }
   }
 </style>
