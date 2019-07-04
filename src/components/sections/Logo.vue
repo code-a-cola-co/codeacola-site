@@ -3,6 +3,7 @@
     padding: 40px 0;
     text-align: center;
     background-color: $color-lightest-gray;
+    border-bottom: 1px solid $color-lighter-gray;
 
     &__logo {
       display: block;
