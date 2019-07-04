@@ -1,14 +1,26 @@
+const path = require('path');
+
+function addStyleResource (rule) {
+  rule.use('style-resource')
+    .loader('style-resources-loader')
+    .options({
+      patterns: [
+        path.resolve(__dirname, './src/assets/scss/base.scss'),
+      ],
+    })
+}
+
 module.exports = {
   siteName: 'code@cola - Javascript Projects',
-  siteDescription: 'Open source javascript projects for developers.',
+  siteDescription: 'Open source javascript resources for developers',
   siteUrl: '//codeacola.com',
   icon: {
     favicon: {
-      src: './src/assets/images/favicon.png',
+      src: './src/favicon.png',
       sizes: [16, 32, 96],
     },
     touchicon: {
-      src: './src/assets/images/favicon.png',
+      src: './src/favicon.png',
       sizes: [76, 152, 120, 167],
       precomposed: true,
     },
@@ -20,5 +32,11 @@ module.exports = {
       anchorClassName: 'icon icon-link',
     },
   },
-  plugins: []
-}
+  plugins: [],
+  chainWebpack (config) {
+    const types = ['vue-modules', 'vue', 'normal-modules', 'normal'];
+    types.forEach(type => {
+      addStyleResource(config.module.rule('scss').oneOf(type))
+    });
+  },
+};

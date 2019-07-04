@@ -9,12 +9,6 @@
 <template>
   <div class="codeacola">
 
-    <header class="codeacola__header">
-      <strong>
-        <g-link to="/">{{ $static.metaData.siteName }}</g-link>
-      </strong>
-    </header>
-
     <slot/>
 
   </div>
@@ -23,7 +17,7 @@
 <static-query>
 query {
   metaData {
-    siteName
-  }
+    siteName,
+  },
 }
 </static-query>
