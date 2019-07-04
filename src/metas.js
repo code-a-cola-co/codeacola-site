@@ -33,7 +33,7 @@ export default [
   },
   { name: 'apple-mobile-web-app-capable', content: 'yes' },
   { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
-  { name: 'theme-color', content: '#462877' },
-  { name: 'msapplication-navbutton-color', content: '#462877' },
+  { name: 'theme-color', content: '#291e64' },
+  { name: 'msapplication-navbutton-color', content: '#291e64' },
   { name: 'mobile-web-app-capable', content: 'yes' },
 ];
