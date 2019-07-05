@@ -39,8 +39,6 @@
 </static-query>
 
 <script>
-  import Logo from '@/components/sections/Logo.vue';
-
   export default {
     name: 'Logo',
   }

@@ -1,0 +1,42 @@
+export default [
+  {
+    name: 'PetfinderExpress',
+    url: 'https://github.com/code-a-cola/PetfinderExpress',
+    publisher: 'code-a-cola',
+    description: 'Express api for backend integration with the petfinder API',
+    clone: 'git@github.com:code-a-cola/PetfinderExpress.git',
+    external: false,
+  },
+  {
+    name: 'VueTimesheet',
+    url: 'https://github.com/code-a-cola/VueTimesheet',
+    publisher: 'code-a-cola',
+    description: 'Vue.js component for displaying beautiful yearly based timesheets',
+    clone: 'git@github.com:code-a-cola/VueTimesheet.git',
+    external: false,
+  },
+  {
+    name: 'Gridsome',
+    url: 'https://github.com/gridsome/gridsome',
+    publisher: 'gridsome',
+    description: 'A Modern Site Generator for for building sites with Vue.js',
+    clone: 'git@github.com:gridsome/gridsome.git',
+    external: true,
+  },
+  {
+    name: 'VueLeafletMap',
+    url: 'https://github.com/code-a-cola/VueLeafletMap',
+    publisher: 'code-a-cola',
+    description: 'Vue.js component plugin for displaying interactive leaflet maps',
+    clone: 'git@github.com:code-a-cola/VueLeafletMap.git',
+    external: false,
+  },
+  {
+    name: 'Vue.js',
+    url: 'https://github.com/vuejs/vue',
+    publisher: 'vuejs',
+    description: 'The Progressive JavaScript Framework for modern app development',
+    clone: 'git@github.com:vuejs/vue.git',
+    external: true,
+  },
+]
