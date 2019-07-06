@@ -2,6 +2,7 @@
   .codeacola-github {
     padding: 40px 0;
     text-align: center;
+    margin-bottom: -30px;
 
     &__card {
       display: block;
