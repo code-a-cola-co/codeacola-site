@@ -49,6 +49,7 @@
             padding: 12px;
             font-weight: 700 !important;
             transition: all 0.25s ease-in-out;
+            transition-property: background-color, color;
 
             &:link,
             &:visited,
