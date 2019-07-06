@@ -68,7 +68,7 @@ a {
   }
 }
 
-@media (max-width: $break-sm) {
+@include breakpoint-down('sm') {
   br {
     display: none;
   }

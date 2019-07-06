@@ -20,16 +20,67 @@ $color-light-gray: #CCCCCC;
 $color-lighter-gray: #EEEEEE;
 $color-lightest-gray: #FCFCFC;
 
-$break-sm: 576px;
-$break-md: 768px;
-$break-lg: 992px;
-$break-xl: 1200px;
-$break-4k: 4096px;
+$all-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  hd: 4096px
+) !default;
 
-$html-font-size: (null: 14px, $break-4k: 16px, $break-xl: 15px, $break-lg: 14px, $break-md: 14px, $break-sm: 15px);
-$h1-font-size: (null: 4em, $break-4k: 4.25em, $break-xl: 4.25em, $break-lg: 4em, $break-md: 3.75em, $break-sm: 3.5em);
-$h2-font-size: (null: 3em, $break-4k: 3.25em, $break-xl: 3.25em, $break-lg: 3em, $break-md: 2.75em, $break-sm: 2.5em);
-$h3-font-size: (null: 2em, $break-4k: 2.25em, $break-xl: 2.25em, $break-lg: 2em, $break-md: 1.75em, $break-sm: 1.5em);
-$h4-font-size: (null: 1em, $break-4k: 1.25em, $break-xl: 1.25em, $break-lg: 1em, $break-md: 1em, $break-sm: 1em);
-$h5-font-size: (null: 0.83em, $break-4k: 0.95em, $break-xl: 0.95em, $break-lg: 0.83em, $break-md: 0.83em, $break-sm: 0.83em);
-$h6-font-size: (null: 0.75em, $break-4k: 0.83em, $break-xl: 0.83em, $break-lg: 0.75em, $break-md: 0.75em, $break-sm: 0.75em);
+$html-font-size: (
+  null: 14px,
+  map-get($all-breakpoints, 'hd'): 16px,
+  map-get($all-breakpoints, 'xl'): 15px,
+  map-get($all-breakpoints, 'lg'): 14px,
+  map-get($all-breakpoints, 'md'): 14px,
+  map-get($all-breakpoints, 'sm'): 15px);
+
+$h1-font-size: (
+  null: 4em,
+  map-get($all-breakpoints, 'hd'): 4.25em,
+  map-get($all-breakpoints, 'xl'): 4.25em,
+  map-get($all-breakpoints, 'lg'): 4em,
+  map-get($all-breakpoints, 'md'): 3.75em,
+  map-get($all-breakpoints, 'sm'): 3.5em);
+
+$h2-font-size: (
+  null: 3em,
+  map-get($all-breakpoints, 'hd'): 3.25em,
+  map-get($all-breakpoints, 'xl'): 3.25em,
+  map-get($all-breakpoints, 'lg'): 3em,
+  map-get($all-breakpoints, 'md'): 2.75em,
+  map-get($all-breakpoints, 'sm'): 2.5em);
+
+$h3-font-size: (
+  null: 2em,
+  map-get($all-breakpoints, 'hd'): 2.25em,
+  map-get($all-breakpoints, 'xl'): 2.25em,
+  map-get($all-breakpoints, 'lg'): 2em,
+  map-get($all-breakpoints, 'md'): 1.75em,
+  map-get($all-breakpoints, 'sm'): 1.5em);
+
+$h4-font-size: (
+  null: 1em,
+  map-get($all-breakpoints, 'hd'): 1.25em,
+  map-get($all-breakpoints, 'xl'): 1.25em,
+  map-get($all-breakpoints, 'lg'): 1em,
+  map-get($all-breakpoints, 'md'): 1em,
+  map-get($all-breakpoints, 'sm'): 1em);
+
+$h5-font-size: (
+  null: 0.83em,
+  map-get($all-breakpoints, 'hd'): 0.95em,
+  map-get($all-breakpoints, 'xl'): 0.95em,
+  map-get($all-breakpoints, 'lg'): 0.83em,
+  map-get($all-breakpoints, 'md'): 0.83em,
+  map-get($all-breakpoints, 'sm'): 0.83em);
+
+$h6-font-size: (
+  null: 0.75em,
+  map-get($all-breakpoints, 'hd'): 0.83em,
+  map-get($all-breakpoints, 'xl'): 0.83em,
+  map-get($all-breakpoints, 'lg'): 0.75em,
+  map-get($all-breakpoints, 'md'): 0.75em,
+  map-get($all-breakpoints, 'sm'): 0.75em);
