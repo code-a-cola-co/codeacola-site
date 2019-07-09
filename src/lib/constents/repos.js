@@ -39,4 +39,12 @@ export default [
     clone: 'git@github.com:vuejs/vue.git',
     external: true,
   },
+  {
+    name: 'VueLeafletHeatmap',
+    url: 'https://github.com/code-a-cola/VueLeafletHeatmap',
+    publisher: 'code-a-cola',
+    description: 'Vue.js component plugin for displaying interactive leaflet heatmaps',
+    clone: 'git@github.com:code-a-cola/VueLeafletHeatmap.git',
+    external: false,
+  },
 ]
